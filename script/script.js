@@ -53,11 +53,8 @@ const kepSzam = oszlop * sor / 2; //páros és max 44
 const kepek = [];
 for (let i = 0; i < kepSzam; i++) {
     let k = Math.round(Math.random()*21+1);
-    if (kepek.indexOf(k) == -1) {
-        kepek.push(k);
-    } else {
-        i--;
-    }
+    if (kepek.indexOf(k) == -1) kepek.push(k);
+    else i--;
 }
 console.log(kepek);
 
