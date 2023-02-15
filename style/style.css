@@ -3,8 +3,24 @@
     margin: 0px;
     box-sizing: border-box;
 }
+h1 {
+    text-align: center;
+    padding: 50px 0;
+}
 
 #palya {
     max-width: 1000px;
     margin: 0 auto;
+}
+.sor {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.cella {
+    width: 100px;
+    height: 100px;
+    background-color: peachpuff;
+    border: 1px solid black;
+    background-size: cover;
 }
