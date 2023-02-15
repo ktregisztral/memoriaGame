@@ -24,3 +24,10 @@ h1 {
     border: 1px solid black;
     background-size: cover;
 }
+.kitalalva {
+    filter: grayscale(1);
+}
+.uzenet {
+    text-align: center;
+    font-size: large;
+}
